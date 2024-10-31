@@ -92,3 +92,13 @@ export const wordAnimation2 = {
         }
     }
 }
+
+
+/*
+git init
+git add .
+git commit -m "first"
+git branch -M main
+git remote add origin https://github.com/ToqaMohamedDev/hindi.git
+git push -u origin main
+*/

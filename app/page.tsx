@@ -11,7 +11,6 @@ const Work =dynamic(()=>import('./work-section/Work'));
 export default function Home() {
   const blobityInstanse=useBlobity(initialBlobityOptions);
    useEffect(()=>{
-   //@ts-ignore 
    window.blobity=blobityInstanse.current;
    },[blobityInstanse]);
   return (
